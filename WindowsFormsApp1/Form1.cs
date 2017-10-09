@@ -183,6 +183,9 @@ namespace WindowsFormsApp1
             buildingExistsCount = buildingExsists.Count();
             //===============================================================================================
 
+            // Fixed a problem where the if was <0 and some building were returning 0 instead of -1. With <= 0 both -1 and 0 are covered.
+            //Tested with Building 5544 in PROD
+
             if (buildingExistsCount <= 0)
             {
 
