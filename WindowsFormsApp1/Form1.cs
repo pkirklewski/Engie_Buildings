@@ -183,7 +183,7 @@ namespace WindowsFormsApp1
             buildingExistsCount = buildingExsists.Count();
             //===============================================================================================
 
-            if (buildingExistsCount < 0)
+            if (buildingExistsCount <= 0)
             {
 
 

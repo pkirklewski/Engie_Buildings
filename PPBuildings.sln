@@ -1,8 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.12
-#VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buildings", "WindowsFormsApp1\Buildings.csproj", "{5162C673-A0C8-4A0C-94B1-302515708517}"
 EndProject
@@ -34,5 +33,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7131671C-D9CF-44E5-8325-9A6E7F7E634E}
 	EndGlobalSection
 EndGlobal
